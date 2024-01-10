@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/.m2/repository/org/spigotmc/spigot/1.18-R0.1-SNAPSHOT/spigot-1.18-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/.m2/repository/org/spigotmc/spigot/1.18-R0.1-SNAPSHOT/spigot-1.18-R0.1-SNAPSHOT-remapped-mojang.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/.m2/repository/org/spigotmc/spigot/1.18-R0.1-SNAPSHOT/spigot-1.18-R0.1-SNAPSHOT-remapped-obf.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot-api-1.18-R0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/asm-9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/authlib-3.2.38.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/brigadier-1.0.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/bungeecord-chat-1.16-R0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/checker-qual-3.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/datafixerupper-4.0.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/error_prone_annotations-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/failureaccess-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/fastutil-8.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/gson-2.8.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/guava-31.0.1-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/httpclient-4.5.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/httpcore-4.4.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/j2objc-annotations-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/javabridge-1.2.24.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/jcl-over-slf4j-1.7.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/jline-2.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/jna-5.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/jna-platform-5.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/jopt-simple-5.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/log4j-api-2.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/log4j-core-2.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/log4j-iostreams-2.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/log4j-slf4j18-impl-2.14.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-artifact-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-builder-support-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-model-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-model-builder-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-repository-metadata-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-resolver-api-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-resolver-connector-basic-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-resolver-impl-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-resolver-provider-3.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-resolver-spi-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-resolver-transport-http-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/maven-resolver-util-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/mysql-connector-java-8.0.27.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/netty-all-4.1.68.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/org.eclipse.sisu.inject-0.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/oshi-core-5.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/plexus-interpolation-1.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/plexus-utils-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/protobuf-java-3.11.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/slf4j-api-1.8.0-beta4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/snakeyaml-1.28.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/spigot-api-1.18-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Micro230/eclipse-workspace/.libraries/Minecraft/spigot1.18 extras/sqlite-jdbc-3.36.0.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

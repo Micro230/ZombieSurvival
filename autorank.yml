@@ -1,0 +1,25 @@
+#Rank levels should add depending on the level the rank is
+#DO NOT SET THE RANK LEVELS THE SAME
+#Time needed is in seconds
+#Command to run can be left blank, DO NOT WRITE A "/" SIGN
+Ranks:
+  - Warrior
+  - Troglodyte
+Warrior:
+  ranklevel: 1
+  timeneeded: 10
+  commandtorun: broadcast Test1
+Troglodyte:
+  ranklevel: 2
+  timeneeded: 15
+  commandtorun: broadcast Test2
+
+#------------------------------------------------------#
+#This part below this line is very specific
+#You do not need to modify below this line if the ranks are set up
+#If it fails to run, you will have to delete it and rerun the plugin
+
+Players:
+  - Micro230
+Micro230:
+  rank: Warrior

@@ -1,0 +1,50 @@
+#This is the classes file. Here you may add as many classes as you like. Please make sure you do this correctly!
+#YOU MUST list all classes here for them to work. You cna also disable a class by removing it from this list.
+#Class names must contain NO spaces and be less than 14 characters long
+#Class items are given at the start of a game.
+#Class description can be anything you want.
+#If classes are enabled, scoring will include class scores and top classes.
+#Potions are put together like this: (POTION/ARROW TYPE),(AMOUNT),(POTIONEFFECTTYPE),(DURATION),(STRENGTH),(DISPLAY NAME),(Color R), (Color G), (Color B)
+Classes:
+  - Guards
+  - Survivors
+  - Medic
+  - Ranger
+Guards:
+  description: Guards
+  items:
+    - WOODEN_SWORD
+    - LEATHER_CHESTPLATE
+    - LEATHER_HELMET
+  upgrades:
+    - "DAMAGE_RESISTANCE"
+Survivors:
+  description: Survivors
+  items:
+    - WOODEN_SWORD
+    - BOW
+    - ARROW,64
+    - LEATHER_CHESTPLATE
+  upgrades:
+    - "SPEED"
+Medic:
+  description: Medic
+  items:
+    - WOODEN_SWORD
+    - POTION,5,REGENERATION,10,1,Self Regeneration 10s,255,0,0
+    - LINGERING_POTION,5,HEAL,10,1,Heal Aura 10s,0,0,255
+    - SPLASH_POTION,5,HEALTH_BOOST,30,1,Health Booster,0,0,255
+    - LEATHER_HELMET
+  upgrades:
+    - "HEALTH_BOOST"
+Ranger:
+  description: Ranger
+  items:
+    - CROSSBOW
+    - ARROW,64
+    - TIPPED_ARROW,32,SLOW,60,2,Slowness Arrow 60s,0,0,255
+    - TIPPED_ARROW,32,WITHER,60,2,Withering Arrow 5s,0,0,255
+    - LEATHER_CHESTPLATE
+    - LEATHER_LEGGINGS
+  upgrades:
+    - "SPEED"

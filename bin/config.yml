@@ -1,0 +1,235 @@
+installed: true
+
+#-----Game Settings-----#
+
+#Minimum number of players joined to start a game
+start-player-count: 1
+
+#Should the player receive items when they first join from the config settings (at bottom)
+items-at-join: true
+
+#Should water and cobweb hurt players?
+infect-mat: true
+
+#A 1/x chance a runner will spawn; 0 = disabled
+fast-zombie-spawn-chance: 10
+
+#A 1/x chance a tank will spawn; 0 = disabled
+tank-zombie-spawn-chance: 22
+
+#A 1/x chance a king will spawn; 0 = disabled
+king-zombie-spawn-chance: 37
+
+#Should doors be bought to open new areas
+use-buyable-doors: true
+
+#Max zombies allowed in the game at one time (This does not affect the max zombies in the round)
+max-zombies-at-once: 50
+
+#Max health the zombies will reach
+zombie-max-health: 20
+
+#Wave that fast zombies will start mixing in with the normal zombies
+fast-zombie-start-wave: 3
+
+#Wave that tank zombies will start mixing in with the normal zombies
+tank-zombie-start-wave: 8
+
+#Wave that king zombies will start mixing in with the normal zombies
+king-zombie-start-wave: 10
+
+#Max barricades that can be repaired before money stops being given to the player (Resets every round)
+max-barricades-to-repair: 20
+
+#-----Player Settings-----#
+
+#Should we restore player's original gamemode after game?
+restore-gamemode: true
+
+#Should we restore player's original health after game?
+restore-health: true
+
+#Seperate Inventories between games/real world (inventories will be restored at end of game)
+inventory-save: true
+
+#Teleport player to spawn after game end?
+teleport-to-spawn: true
+
+#-----Wave Settings-----#
+
+#Seconds between new waves
+wave-wait: 20
+
+#heal players after each wave has completed?
+heal-player-new-wave: true
+
+#A 1/nth chance a wave will be a wolf wave; 0 = disabled
+wolf-wave-chance: 10
+
+#Use smarter wave size adjuster? (If true, waves are based on multiplier and player load combined)
+use-smart-waves: true
+
+#-----Mob Specific Settings-----#
+
+#How fast normal zombies seek players 0.50 is NORMAL SPEED
+seek-speed: 0.50
+
+#How fast Runner (FAST) zombies seek players (1.25 is default)
+fast-seek-speed: 1.25
+
+#If a mob dies by natural causes should they respawn?
+death-non-human-respawn: false
+
+#Should non-human damage actually damage the mobs? (Example: lava, sun light)
+all-hurt: true
+
+#Mob health multiplier, (0 is off) higher values increase Mob health faster till it reaches max allowed by minecraft
+health-multi: 1.00
+
+#Damage Multiplier, between (0 is off) higher values cause zombies to deal more damage
+damage-multi: 0.20
+
+#-----Points/Economy Settings-----#
+
+#Should a player be taxed when they die? 0.00-1.00
+death-loss-percent: 0.08
+
+#Empty Account on /leave and when game is over
+empty-account: true
+
+#Maximum number of points a user can receive per kill
+max-points-per-kill: 15
+
+#Should the points be reset when a player dies?
+reset-points-on-death: true
+
+#Sign class upgrade price increase
+upgrade-class-increase: 150
+
+#Sign class upgrade price cost
+upgrade-class-cost: 400
+
+#-----Misc. Game Settings-----#
+
+#Time a player must wait before rejoining a game after using /leave or a leave sign
+leave-timer: 20
+
+#force inventory clear on SERVER JOIN (useful for automated servers)
+inventory-clear-join: true
+
+#Force players to world spawn on server join (useful for automated servers)
+force-spawn: true
+
+#Time before new game when automated, in SECONDS!
+auto-cooldown: 120
+
+#Automation Join Message - for automated servers only!
+auto-join-message: Welcome to the server! We are running automated ZombieSurvival games!
+
+# Used for AUTOMATED servers so that players cannot break blocks while in waiting area
+auto-anti-grief: false
+
+#Allow Spectate (Can players fly around and such after death??) only works if a spectate spawn point made
+allow-spectate: true
+
+#How many blocks from the purchase door sign to search for a DEFINED door (in a RADIUS, doors MUST be added with /zsa-door)
+buy-door-find-radius: 4
+
+#Should a message be displayed if they join?
+join-message: true
+
+#Should scoreboard showing top players be shown when not in a game?
+menu-scoreboard-enabled: true
+
+#-----Misc. Global Settings-----#
+
+#Command used to join, DO NOT include the /
+join-commands: [join, zs-join]
+
+#Command used to leave, DO NOT include the /
+leave-commands: [leave, zs-leave]
+
+# Automation Enabled? (This will force everyone to vote for a map!)
+automated: false
+
+#Allow update checking?
+new-version-checking: true
+
+#-----Item Lists and Stuff-----#
+
+#Items they shall get when joining a game 0-nothing
+#Add ':' to change amount added
+join-items:
+- "WOODEN_SWORD"
+- "WOODEN_HOE"
+- "ARROW:64"
+
+#What armor should they get at join if items-at-join true? 0-nothing
+armor-items:
+- 0
+
+#Items zombies should drop along with the chance of a drop. 1 = 100% 0-nothing
+#Example: LAPIS_LAZULI:0.01
+drop-items:
+- "0"
+
+# List of blocks to be allowed broken during game (Block ID) 0-nothing
+allowbreak:
+- "0"
+
+# List of blocks to be allowed placed during game (Block ID) 0-nothing
+allowplace:
+- "0"
+
+#List of items to put into the mystery box upon purchase. 0-nothing
+mysterybox-items:
+- "WOODEN_SWORD"
+- "STONE_SWORD"
+- "IRON_SWORD"
+- "GOLDEN_SWORD"
+- "DIAMOND_SWORD"
+- "NETHERITE_SWORD"
+- "SHIELD"
+- "STONE_AXE"
+- "IRON_AXE"
+- "GOLDEN_AXE"
+- "DIAMOND_AXE"
+- "NETHERITE_AXE"
+- "CROSSBOW"
+- "BOW"
+- "LEATHER_HELMET"
+- "LEATHER_CHESTPLATE"
+- "LEATHER_LEGGINGS"
+- "LEATHER_BOOTS"
+- "IRON_HELMET"
+- "IRON_CHESTPLATE"
+- "IRON_LEGGINGS"
+- "IRON_BOOTS"
+- "WOODEN_HOE"
+- "STONE_HOE"
+- "IRON_HOE"
+- "GOLDEN_HOE"
+- "DIAMOND_HOE"
+- "NETHERITE_HOE"
+
+#-----Lightning Settings-----#
+
+#Set to true if you want fire to spawn at the strike location
+Do-Fire: false
+
+#Set to true if you want creepers to become charged creepers when struck
+Charge-Creepers: false
+
+#Distance in blocks. Set to -1 for all to make it depend on server view distance
+X-See-Distance: -1
+Y-See-Distance: -1
+Z-See-Distance: -1
+
+#Distance in blocks. Set to -1 for all to make it depend on server view distance
+X-Hear-Distance: -1
+Y-Hear-Distance: -1
+Z-Hear-Distance: -1
+
+#-----DO NOT CHANGE-----#
+#DO NOT CHANGE, CONFIG FILE VERSION!! Used to check whether or not config needs to be replaced.
+version: 0.7.0
